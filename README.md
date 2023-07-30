@@ -6,14 +6,14 @@ This is a basic Todo App. Users can perform CRUD operations on Todo items. Built
 This app is development using -
   - Servlet API
   - JSP API
-  - PostgresQL database
+  - Postgresql database
   - Apache Tomcat v10
 
 To develop, follow the following steps -
   1. Clone the repo.
   2. Install Tomcat v10.
   3. Setup your IDE of choice. (I used Netbeans).
-  4. Setup the database using the commands given below.
+  4. Install and setup postresql using the commands given below.
   5. Build and run the project.
 
 #### Database setup
