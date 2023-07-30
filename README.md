@@ -13,8 +13,9 @@ To develop, follow the following steps -
   1. Clone the repo.
   2. Install Tomcat v10.
   3. Setup your IDE of choice. (I used Netbeans).
-  4. Install and setup postresql using the commands given below.
-  5. Build and run the project.
+  4. Install postgresql.
+  5. Setup database using the commands given below.
+  6. Build and run the project.
 
 #### Database setup
 
