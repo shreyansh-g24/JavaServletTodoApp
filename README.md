@@ -1,6 +1,6 @@
 # Todo App
 
-This is a basic Todo App. Users can perform CRUD operations on Todo items. Built using PRG design pattern.
+This is a basic Todo App. Users can perform CRUD operations on Todo items.
 
 ### Development
 This app is development using -
