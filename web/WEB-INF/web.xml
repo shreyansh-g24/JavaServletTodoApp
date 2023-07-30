@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>TodosServlet</servlet-name>
+        <servlet-class>servlets.TodosServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TodoItemServlet</servlet-name>
+        <servlet-class>servlets.TodoItemServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TodoItemDeleteServlet</servlet-name>
+        <servlet-class>servlets.TodoItemDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TodosServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TodoItemServlet</servlet-name>
+        <url-pattern>/todo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TodoItemDeleteServlet</servlet-name>
+        <url-pattern>/deleteTodo</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
