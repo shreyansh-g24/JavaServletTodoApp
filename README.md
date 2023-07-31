@@ -3,7 +3,7 @@
 This is a basic Todo App. Users can perform CRUD operations on Todo items.
 
 ### Development
-This app is development using -
+This app is developed using -
   - Servlet API
   - JSP API
   - Postgresql database
