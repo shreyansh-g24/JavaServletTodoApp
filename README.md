@@ -2,6 +2,8 @@
 
 This is a basic Todo App. Users can perform CRUD operations on Todo items.
 
+Demo - https://youtu.be/dKl5z26VCjk
+
 ### Development
 This app is developed using -
   - Servlet API
